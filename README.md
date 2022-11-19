@@ -1,2 +1,2 @@
 # MandlebulbSim
-# Mandlebulb Simulacrum built with Processing IDE
+Mandlebulb Simulacrum built with Processing IDE
