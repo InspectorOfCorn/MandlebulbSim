@@ -18,7 +18,7 @@ void setup() {
                        
         PVector zaza = new PVector(0,0,0);
         int n = 8;
-        int iteration_cap = 10;
+        int iteration_cap = 50;
         int iterate = 0;
         while (true) {
           Spherical sphericalZaza = spherical(zaza.x,zaza.y,zaza.z);
@@ -30,7 +30,7 @@ void setup() {
           zaza.z = newz + z;
           iterate++;
           
-          if (sphericalZaza.r > 16) {
+          if (sphericalZaza.r > 5) {
             if (edge) {
               edge = false;
             }
